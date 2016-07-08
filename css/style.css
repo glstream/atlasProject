@@ -1,0 +1,50 @@
+*, body {
+	font-fanily: Helvetica, sans-serif;
+	margin:0;
+}
+#content {
+	margin:auto;
+	width:800px;
+}
+#viz {
+	border:solid 1px red;
+	height: 400px;
+}
+
+
+.axis path, .axis line{
+	fill:none;
+	stroke:black;
+}
+.axis text {
+	font-family:sans-serif;
+	font-size: 11px;
+}
+.tooltip{
+	background: white;
+	border: 1px solid #dedede;
+	display:none;
+	padding: 10px;
+	position: absolute;
+	max-width: 400px;
+}
+
+.tooltip p.subtitle {
+	font-size:smaller;
+}
+
+.tooltip table{
+	margin:10px 0 0 0;
+	text-align:left;
+	vertical-align:top;
+}
+
+.tooltip table tr:first-child th,
+.tooltip table tr:first-child td {
+	border-bottom: 1px solid #ccc;
+	padding:5px 0;
+}
+.tooltip table td:nth-child(2) {
+	padding: 0 0 0 10px;
+	text-align:right;
+}
